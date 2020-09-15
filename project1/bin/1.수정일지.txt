@@ -1,0 +1,145 @@
+2020/06/03. 3:58  - 표다몬
+ 
+패키지 정리 업로드
+
+2020/06/03. 4:15
+
+카드게임 타이머 수정 ( gameMain.java ) 
+
+2020/06/03. 06:23 - 박해진형
+
+Binggoscore, cardscore, coinscore라는 DTO클래스 생성및 
+LoginDAO에서 로그인시, true값 반환하는 메소드 추가, 
+nickname을 각 DTO클래스에 뿌려주는 메소드 끝냄. -검토해야함
+
+register nickname수정
+
+
+2020/06/03. 05:25 - 표다몬
+
+miniGameServerThread 
+miniGameSeverMain
+clientMain
+CoinEat
+
+게임 종료 및 클라이언트 종료시 
+서버에서 종료 안되던 문제 수정
+
+2020/06/03. 05:35 - 표다몬
+
+gameMain
+종료시 메인클라이언트 종료되는 문제 수정
+
+
+2020/06/03. 5:51 - 장현봉
+
+mini_WaitRoomUI 현재시간 표시
+
+cardDAO 주석처리
+
+
+2020/06/03. 06:14 - 표다몬
+
+mini_WaitRoomUI makeRoom public으로 변경
+
+CoinEat - scorePrint클래스 삭제
+
+clientMain - scorePrint클래스 삭제
+
+2020/06/03. 06:25 -김영훈
+
+mini_makeRoom에서 246번줄에서 BingoFrame생성해줌
+
+BingoFrame에서 생성자 인자값추가해 넣음
++ 247번줄에 빙고 달성시 dto에 넣어주는 식 작성 ->user에서 오류남(해결)
++ 389번줄에 비길경우 dto에 넣어주는 식작성 ->user에서 오류남(해결)
+->(패배일 경우는 네트워크 연동이라 잘모르겠음)
+
+DTOBingoscore파일을 ->BingoDTO이름 으로 바꿨음(내용물 다 바꿈)
+
+-> 서로서로 선언한 이름이 달라서 잘 수정 해야할것(coin과 이름 얽히고 있음)
+
+bingoDAO bingoDTO생성 식작성하여 이어줌
+-> bingoframe과 연결해서 프레임에 나오도록구현(하려고 했는데 안됨)
+
+
+2020/06/04 -  10 : 30 장현봉
+
+DB 패키지명 수정
+
+2020/06/04 - 10:46 표다몬
+
+clientMain
+miniGameSeverMain
+mini_MakeRoom
+BingoFrame
+
+채팅창 출력 가능하게 수정
+
+
+2020/06/04 - 11:04 장현봉
+
+gamemain 
+
+이미지 출력, 텍스트테이블 수정
+
+
+2020/06/04 - 11:29 표다몬
+
+BingoFrame 오류수정
+
+2020/06/04 - 11:38 표다몬
+
+mini_MakeRoom 게임오픈 수정
+
+2020/06/04 -11:42 김영훈
+
+빙고시 승패 표시하는 라벨 위치 수정 완료
+
+2020/06/04 -11:47 박해진
+DB
+DTOLogin
+DAOLogin
+coinscore
+coinDTO
+coinDAO
+cardDTO
+cardDAO
+
+2020/06/04 -11:48 표다몬
+
+BingoDAO 변수, 메소드 변경
+
+
+2020/06/04 -12:04 김영훈
+
+수정파일에 이미지 로그인시의 이미지 드림
+
+2020/06/04 -14:44 표다몬
+
+mini_MakeRoom
+BingoFrame
+gameMain
+CoinEat  -- 채팅방 참가 코드 추가 
+
+PrGame -- new class
+
+2020/06/04 - 14:46 김영훈,장현봉
+
+login
+DAOLogin --로그인 추가
+
+2020/06/04- 17:32 표다몬
+mini_User
+DAOLogin
+DTOLogin
+coinDAO
+login
+CoinEat
+
+
+
+
+
+
+
